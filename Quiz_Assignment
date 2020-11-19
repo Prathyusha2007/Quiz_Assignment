@@ -1,0 +1,44 @@
+#Python Quiz
+from time import sleep
+name=input("Hello! May I know your good name?")
+print("\nHello",name)
+print("\nI will be giving you a general knowledge quiz! Answer all the questions score points! So what are you waiting for? Let's get going!")
+print("\nFirst question on your screen!")
+b=input("\nWhich planet is known as the Red Planet?")
+print("We are calculating your points...Give us a few moments please...")
+sleep(2)
+if b=="Mars":
+ print("Hurray!You have given the correct answer!Ten points to you!!")
+elif b=="mars":
+   print("Hurray!You have given the correct answer!Ten points to you!!")
+else:
+  print("Uh oh!Your answer is wrong!The correct answer is Mars! Good luck for the next question!")
+print("\nSecond question on your screen!")
+c=input("Which is the largest ocean in the world?")
+print("\nWe are calculating your points...Give us a few moments please...")
+sleep(2)
+if c=="Pacific Ocean": 
+ print("Hurray!You have given the correct answer!Ten points to you!!")
+elif c=="pacific ocean":
+   print("Hurray!You have given the correct answer!Ten points to you!!")
+else:
+  print("Uh oh!Your answer is wrong!The correct answer is Pacif Ocean! Good luck for the next question!")
+print("Third question on your screen!")
+a=input("Which country is called the land of rising sun?")
+print("We are calculating your points...Give us a few moments please...")
+sleep(2)
+if a=="Japan": 
+ print("Hurray!You have given the correct answer!Ten points to you!!")
+elif a=="japan":
+   print("Hurray!You have given the correct answer!Ten points to you!!")
+else:
+  print("Uh oh!Your answer is wrong!The correct answer is Japan!")
+d=input("\nDo you want to play again? Y/N")
+if d=="y":
+  print("Please run the program again to play!")
+elif d=="Y":
+  print("Please run the program again to play!")
+elif d=="n":
+  print("Thanks for playing!")
+elif d=="N":
+  print("Thanks for playing")
